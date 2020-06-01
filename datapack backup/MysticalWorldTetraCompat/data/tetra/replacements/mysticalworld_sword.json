@@ -1,0 +1,50 @@
+[
+    {
+        "predicate": {
+            "item": "mysticalworld:copper_sword"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/basic_blade", "basic_blade/copper"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/copper"],
+            "sword/guard": ["sword/makeshift_guard", "makeshift_guard/copper"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:lead_sword"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/basic_blade", "basic_blade/lead"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/lead"],
+            "sword/guard": ["sword/makeshift_guard", "makeshift_guard/lead"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:silver_sword"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/basic_blade", "basic_blade/silver"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/silver"],
+            "sword/guard": ["sword/makeshift_guard", "makeshift_guard/silver"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:tin_sword"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/basic_blade", "basic_blade/tin"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/tin"],
+            "sword/guard": ["sword/makeshift_guard", "makeshift_guard/tin"]
+        }
+    }
+]

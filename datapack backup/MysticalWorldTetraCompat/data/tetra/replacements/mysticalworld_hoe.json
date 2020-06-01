@@ -1,0 +1,46 @@
+[
+    {
+        "predicate": {
+            "item": "mysticalworld:copper_hoe"
+        },
+        "item": "tetra:duplex_tool_modular",
+        "modules": {
+            "duplex/head_left": ["duplex/hoe_left", "hoe/copper"],
+            "duplex/head_right": ["duplex/butt_right", "butt/copper"],
+            "duplex/handle": ["duplex/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:tin_hoe"
+        },
+        "item": "tetra:duplex_tool_modular",
+        "modules": {
+            "duplex/head_left": ["duplex/hoe_left", "hoe/tin"],
+            "duplex/head_right": ["duplex/butt_right", "butt/tin"],
+            "duplex/handle": ["duplex/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:lead_hoe"
+        },
+        "item": "tetra:duplex_tool_modular",
+        "modules": {
+            "duplex/head_left": ["duplex/hoe_left", "hoe/lead"],
+            "duplex/head_right": ["duplex/butt_right", "butt/lead"],
+            "duplex/handle": ["duplex/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:silver_hoe"
+        },
+        "item": "tetra:duplex_tool_modular",
+        "modules": {
+            "duplex/head_left": ["duplex/hoe_left", "hoe/silver"],
+            "duplex/head_right": ["duplex/butt_right", "butt/silver"],
+            "duplex/handle": ["duplex/basic_handle", "basic_handle/stick"]
+        }
+    }
+]

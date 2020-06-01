@@ -1,0 +1,42 @@
+[
+    {
+        "predicate": {
+            "item": "mysticalworld:copper_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "basic_shovel/copper"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:tin_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "basic_shovel/tin"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:lead_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "basic_shovel/lead"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:silver_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "basic_shovel/silver"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    }
+]

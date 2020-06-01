@@ -1,0 +1,101 @@
+[
+    {
+        "predicate": {
+            "item": "mysticalworld:wood_knife"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/oak"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:copper_knife"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/copper"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/copper"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:lead_knife"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/lead"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/lead"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:silver_knife"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/silver"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/silver"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:tin_knife"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/tin"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/tin"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:stone_knife"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/flint"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/cobblestone"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:diamond_knife"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/diamond"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/diamond"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:gold_knife"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/gold"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/gold"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:iron_knife"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/short_blade", "short_blade/iron"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/iron"]
+        }
+    }
+]

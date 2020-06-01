@@ -1,0 +1,92 @@
+[
+    {
+        "predicate": {
+            "item": "mysticalworld:copper_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/spearhead", "spearhead/copper"],
+            "single/handle": ["single/long_handle", "long_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:tin_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/spearhead", "spearhead/tin"],
+            "single/handle": ["single/long_handle", "long_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:lead_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/spearhead", "spearhead/lead"],
+            "single/handle": ["single/long_handle", "long_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:silver_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/spearhead", "spearhead/silver"],
+            "single/handle": ["single/long_handle", "long_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:wood_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/spearhead", "spearhead/oak"],
+            "single/handle": ["single/long_handle", "long_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:stone_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/spearhead", "spearhead/stone"],
+            "single/handle": ["single/long_handle", "long_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:diamond_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/spearhead", "spearhead/diamond"],
+            "single/handle": ["single/long_handle", "long_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:gold_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/spearhead", "spearhead/gold"],
+            "single/handle": ["single/long_handle", "long_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "mysticalworld:iron_spear"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/spearhead", "spearhead/iron"],
+            "single/handle": ["single/long_handle", "long_handle/stick"]
+        }
+    }
+]
