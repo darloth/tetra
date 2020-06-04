@@ -1,0 +1,45 @@
+{
+    "replace": false,
+    "slots": [
+        "single/head"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 176,
+        "textureY": 32
+    },
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:ingots/quicksilver"
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "single/basic_shovel",
+            "moduleVariant": "basic_shovel/quicksilver"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/amethyst"
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "single/basic_shovel",
+            "moduleVariant": "basic_shovel/amethyst"
+        },
+        {
+            "material": {
+                "item": "minecraft:cactus"
+            },
+            "requiredCapabilities": {
+                "axe": 1,
+                "cut": 1
+            },
+            "moduleKey": "single/basic_shovel",
+            "moduleVariant": "basic_shovel/cactus"
+        }
+    ]
+}

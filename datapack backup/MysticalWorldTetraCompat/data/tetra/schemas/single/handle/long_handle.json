@@ -1,12 +1,13 @@
 {
     "replace": false,
     "slots": [
-        "sword/hilt"
+        "single/handle"
     ],
     "materialSlotCount": 1,
     "displayType": "major",
     "glyph": {
-        "textureX": 16
+        "textureX": 112,
+        "textureY": 32
     },
     "outcomes": [
         {
@@ -16,8 +17,8 @@
             "requiredCapabilities": {
                 "hammer": 1
             },
-            "moduleKey": "sword/basic_hilt",
-            "moduleVariant": "basic_hilt/quicksilver"
+            "moduleKey": "single/long_handle",
+            "moduleVariant": "long_handle/quicksilver"
         }
     ]
 }

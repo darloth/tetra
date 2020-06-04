@@ -12,7 +12,7 @@
     "outcomes": [
         {
             "material": {
-                "item": "forge:ingots/quicksilver"
+                "tag": "forge:ingots/quicksilver"
             },
             "requiredCapabilities": {
                 "hammer": 2
@@ -22,7 +22,7 @@
         },
         {
             "material": {
-                "item": "forge:ingots/amethyst"
+                "tag": "forge:gems/amethyst"
             },
             "requiredCapabilities": {
                 "hammer": 3

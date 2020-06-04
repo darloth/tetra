@@ -11,7 +11,7 @@
     "outcomes": [
         {
             "material": {
-                "item": "forge:ingots/quicksilver"
+                "tag": "forge:ingots/quicksilver"
             },
             "requiredCapabilities": {
                 "hammer": 2

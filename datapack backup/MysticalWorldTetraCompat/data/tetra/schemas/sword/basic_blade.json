@@ -8,7 +8,7 @@
     "outcomes": [
         {
             "material": {
-                "item": "forge:ingots/quicksilver",
+                "tag": "forge:ingots/quicksilver",
                 "count": 2
             },
             "requiredCapabilities": {
