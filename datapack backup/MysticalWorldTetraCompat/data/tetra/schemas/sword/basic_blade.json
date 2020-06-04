@@ -1,0 +1,47 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "outcomes": [
+        {
+            "material": {
+                "item": "forge:ingots/quicksilver",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "sword/basic_blade",
+            "moduleVariant": "basic_blade/quicksilver"
+        },
+        {
+            "material": {
+                "item": "minecraft:cactus",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "cut": 1,
+                "axe": 1
+            },
+            "moduleKey": "sword/basic_blade",
+            "moduleVariant": "basic_blade/cactus"
+        },
+        {
+            "material": {
+                "item": "forge:gems/amethyst",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "sword/basic_blade",
+            "moduleVariant": "basic_blade/amethyst",
+            "improvements": {
+                "arrested": 0
+            }
+        }
+    ]
+}

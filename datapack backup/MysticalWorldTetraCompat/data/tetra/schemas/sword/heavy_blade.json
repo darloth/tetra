@@ -1,0 +1,36 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "tag": "minecraft:cactus",
+                "count": 16
+            },
+            "requiredCapabilities": {
+                "axe": 2,
+                "cut": 2
+            },
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/cactus"
+        },
+        {
+            "material": {
+                "tag": "forge:ingots/quicksilver",
+                "count": 16
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/quicksilver"
+        }
+    ]
+}

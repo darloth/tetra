@@ -1,0 +1,48 @@
+{
+    "replace": true,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureY": 32,
+        "textureX": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "forge:ingots/quicksilver",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/quicksilver"
+        },
+        {
+            "material": {
+                "item": "forge:gems/amethyst",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/amethyst"
+        },
+        {
+            "material": {
+                "item": "minecraft:cactus",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "axe": 1,
+                "cut": 1
+            },
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/cactus"
+        }
+    ]
+}

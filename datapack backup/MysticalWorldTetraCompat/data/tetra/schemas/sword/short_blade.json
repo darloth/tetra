@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 32
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "forge:ingots/quicksilver"
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "sword/short_blade",
+            "moduleVariant": "short_blade/quicksilver"
+        },
+        {
+            "material": {
+                "item": "forge:gems/amethyst"
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "sword/short_blade",
+            "moduleVariant": "short_blade/amethyst"
+        }
+    ]
+}

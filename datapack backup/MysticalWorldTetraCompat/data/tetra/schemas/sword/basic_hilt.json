@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/hilt"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "forge:ingots/quicksilver"
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "sword/basic_hilt",
+            "moduleVariant": "basic_hilt/quicksilver"
+        }
+    ]
+}

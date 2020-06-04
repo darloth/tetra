@@ -1,0 +1,34 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/pommel"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 56,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "forge:ingots/quicksilver"
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "sword/grip_loop",
+            "moduleVariant": "grip_loop/quicksilver"
+        },
+        {
+            "material": {
+                "item": "forge:ingots/amethyst"
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "sword/grip_loop",
+            "moduleVariant": "grip_loop/amethyst"
+        }
+    ]
+}

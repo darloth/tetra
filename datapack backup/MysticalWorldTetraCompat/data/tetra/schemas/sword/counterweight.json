@@ -1,0 +1,34 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/pommel"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 32,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "forge:ingots/quicksilver"
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "sword/counterweight",
+            "moduleVariant": "counterweight/quicksilver"
+        },
+        {
+            "material": {
+                "item": "forge:ingots/amethyst"
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "sword/counterweight",
+            "moduleVariant": "counterweight/amethyst"
+        }
+    ]
+}
