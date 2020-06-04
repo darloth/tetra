@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "slots": [
+        "duplex/handle"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:ingots/quicksilver"
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "duplex/basic_handle",
+            "moduleVariant": "basic_handle/quicksilver"
+        }
+    ]
+}

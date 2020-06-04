@@ -1,0 +1,37 @@
+{
+    "replace": false,
+    "slots": [
+        "duplex/head_left",
+        "duplex/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 176
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:ingots/quicksilver",
+                "count": 2
+            },
+            "moduleKey": "duplex/basic_pickaxe",
+            "moduleVariant": "basic_pickaxe/quicksilver"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/amethyst",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 2
+            },
+            "moduleKey": "duplex/basic_pickaxe",
+            "moduleVariant": "basic_pickaxe/amethyst"
+        }
+    ]
+}

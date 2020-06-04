@@ -1,0 +1,48 @@
+{
+    "replace": false,
+    "slots": [
+        "single/head"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 208,
+        "textureY": 32
+    },
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:ingots/quicksilver",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/quicksilver"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/amethyst",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 3
+            },
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/amethyst"
+        },
+        {
+            "material": {
+                "item": "minecraft:cactus",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "cut": 1,
+                "axe": 1
+            },
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/cactus"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "replace": false,
+    "slots": [
+        "duplex/head_left",
+        "duplex/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 64
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:ingots/quicksilver",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "duplex/basic_hammer",
+            "moduleVariant": "basic_hammer/quicksilver"
+        },
+        {
+            "material": {
+                "item": "minecraft:cactus",
+                "count": 3
+            },
+            "requiredCapabilities": {
+                "cut": 2,
+                "axe": 2
+            },
+            "moduleKey": "duplex/basic_hammer",
+            "moduleVariant": "basic_hammer/cactus"
+        }
+    ]
+}
