@@ -24,6 +24,18 @@
         },
         {
             "material": {
+                "item": "minecraft:cactus",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "axe": 1,
+                "cut": 2
+            },
+            "moduleKey": "duplex/basic_pickaxe",
+            "moduleVariant": "basic_pickaxe/cactus"
+        },
+        {
+            "material": {
                 "tag": "forge:gems/amethyst",
                 "count": 2
             },

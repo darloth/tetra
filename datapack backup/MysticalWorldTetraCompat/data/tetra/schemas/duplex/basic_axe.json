@@ -28,7 +28,7 @@
                 "count": 2
             },
             "requiredCapabilities": {
-                "cut": 1,
+                "cut": 2,
                 "axe": 1
             },
             "moduleKey": "duplex/basic_axe",

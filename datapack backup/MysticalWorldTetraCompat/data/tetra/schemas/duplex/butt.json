@@ -1,0 +1,44 @@
+{
+    "replace": false,
+    "slots": [
+        "duplex/head_right"
+    ],
+    "keySuffixes": [
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 160
+    },
+    "outcomes": [
+        {
+            "material": {
+                "item": "minecraft:cactus"
+            },
+            "requiredCapabilities": {
+                "cut": 2,
+                "axe": 1
+            },
+            "moduleKey": "duplex/butt",
+            "moduleVariant": "butt/cactus"
+        },
+        {
+            "material": {
+                "tag": "forge:ingots/quicksilver"
+            },
+            "moduleKey": "duplex/butt",
+            "moduleVariant": "butt/quicksilver"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/amethyst"
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "duplex/butt",
+            "moduleVariant": "butt/amethyst"
+        }
+    ]
+}

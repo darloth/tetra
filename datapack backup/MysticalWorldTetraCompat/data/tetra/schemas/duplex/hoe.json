@@ -1,0 +1,47 @@
+{
+    "replace": false,
+    "slots": [
+        "duplex/head_left",
+        "duplex/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 16,
+        "textureY": 32
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "material": {
+                "item": "minecraft:cactus"
+            },
+            "requiredCapabilities": {
+                "cut": 2
+                "axe": 1
+            },
+            "moduleKey": "duplex/hoe",
+            "moduleVariant": "hoe/cactus"
+        },
+        {
+            "material": {
+                "tag": "forge:ingots/quicksilver"
+            },
+            "moduleKey": "duplex/hoe",
+            "moduleVariant": "hoe/quicksilver"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/amethyst"
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "duplex/hoe",
+            "moduleVariant": "hoe/amethyst"
+        }
+    ]
+}

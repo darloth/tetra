@@ -1,0 +1,50 @@
+{
+    "replace": false,
+    "slots": [
+        "duplex/head_left",
+        "duplex/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 32,
+        "textureY": 32
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "material": {
+                "item": "minecraft:cactus",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "axe": 1,
+                "cut": 2
+            },
+            "moduleKey": "duplex/sickle",
+            "moduleVariant": "sickle/cactus"
+        },
+        {
+            "material": {
+                "tag": "forge:ingots/quicksilver",
+                "count": 2
+            },
+            "moduleKey": "duplex/sickle",
+            "moduleVariant": "sickle/quicksilver"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/amethyst",
+                "count": 2
+            },
+            "requiredCapabilities": {
+                "hammer": 1
+            },
+            "moduleKey": "duplex/sickle",
+            "moduleVariant": "sickle/amethyst"
+        }
+    ]
+}

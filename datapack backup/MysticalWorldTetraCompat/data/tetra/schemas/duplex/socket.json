@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "slots": [
+        "duplex/binding"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 80,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:gems/amethyst"
+            },
+            "experienceCost": 2,
+            "moduleKey": "duplex/socket",
+            "moduleVariant": "duplex_socket/amethyst"
+        }
+    ]
+}

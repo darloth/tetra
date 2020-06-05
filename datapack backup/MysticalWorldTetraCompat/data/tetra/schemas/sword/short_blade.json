@@ -21,6 +21,17 @@
         },
         {
             "material": {
+                "item": "minecraft:cactus"
+            },
+            "requiredCapabilities": {
+                "cut": 2,
+                "axe": 1
+            },
+            "moduleKey": "sword/short_blade",
+            "moduleVariant": "short_blade/cactus"
+        },
+        {
+            "material": {
                 "item": "forge:gems/amethyst"
             },
             "requiredCapabilities": {
