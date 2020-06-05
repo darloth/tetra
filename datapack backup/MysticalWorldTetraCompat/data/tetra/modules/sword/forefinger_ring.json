@@ -1,0 +1,42 @@
+{
+    "replace": false,
+    "slots": ["sword/guard"],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "key": "forefinger_ring/quicksilver",
+            "durability": 12,
+            "integrity": -1,
+            "effects": {
+                "quickStrike": 5
+            },
+            "glyph": {
+                "tint": "silver",
+                "textureX": 48,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+                "tint": "silver"
+            }]
+        },
+        {
+            "key": "forefinger_ring/amethyst",
+            "durability": 55,
+            "integrity": -1,
+            "effects": {
+                "quickStrike": 4
+            },
+            "glyph": {
+                "tint": "0x8746e2",
+                "textureX": 48,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+                "tint": "0x915ed6"
+            }]
+        }
+    ]
+}

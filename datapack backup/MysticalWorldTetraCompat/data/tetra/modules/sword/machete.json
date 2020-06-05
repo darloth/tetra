@@ -1,0 +1,92 @@
+{
+    "replace": true,
+    "slots": ["sword/blade"],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:sword/blade/machete",
+        "tetra:sword/blade/serrated",
+        "tetra:sword/blade/tempered",
+        "tetra:sword/blade/shared",
+        "tetra:sword/blade/shared_compat",
+        "tetra:sword/blade/shared_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "machete/cactus",
+            "durability": 72,
+            "integrity": -2,
+            "magicCapacity": 15,
+            "damage": 3,
+            "attackSpeed": 0,
+            "glyph": {
+                "tint": "0x78a040",
+                "textureY": 32,
+                "textureX": 48
+            },
+            "effects": {
+                "sweeping": 1,
+                "strikingCut": 1,
+                "sweepingStrike": 1
+            },
+            "capabilities": {
+                "cut": [1, 0.9375]
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/blade/machete/crude",
+                "tint": "0x789640"
+            }]
+        },
+        {
+            "key": "machete/quicksilver",
+            "durability": 60,
+            "integrity": -2,
+            "magicCapacity": 21,
+            "damage": 4,
+            "attackSpeed": 0.1,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureY": 32,
+                "textureX": 48
+            },
+            "effects": {
+                "sweeping": 1,
+                "strikingCut": 1,
+                "sweepingStrike": 1
+            },
+            "capabilities": {
+                "cut": [1, 0.9375]
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/blade/machete/shiny",
+                "tint": "silver"
+            }]
+        },
+        {
+            "key": "machete/amethyst",
+            "durability": 1492,
+            "integrity": -3,
+            "magicCapacity": 10,
+            "damage": 6,
+            "attackSpeed": 0,
+            "glyph": {
+                "tint": "0x8746E2",
+                "textureY": 32,
+                "textureX": 48
+            },
+            "effects": {
+                "sweeping": 1,
+                "strikingCut": 1,
+                "sweepingStrike": 1
+            },
+            "capabilities": {
+                "cut": [1, 0.9375]
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/blade/machete/metal",
+                "tint": "0x915ED6"
+            }]
+        }
+    ]
+}

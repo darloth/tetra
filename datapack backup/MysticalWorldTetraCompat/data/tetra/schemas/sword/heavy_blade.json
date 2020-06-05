@@ -19,7 +19,10 @@
                 "cut": 2
             },
             "moduleKey": "sword/heavy_blade",
-            "moduleVariant": "heavy_blade/cactus"
+            "moduleVariant": "heavy_blade/cactus",
+            "improvements": {
+                "blade/serrated": 2
+            }
         },
         {
             "material": {

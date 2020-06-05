@@ -28,7 +28,10 @@
                 "axe": 1
             },
             "moduleKey": "sword/short_blade",
-            "moduleVariant": "short_blade/cactus"
+            "moduleVariant": "short_blade/cactus",
+            "improvements": {
+                "blade/serrated": 2
+            }
         },
         {
             "material": {
@@ -38,7 +41,10 @@
                 "hammer": 3
             },
             "moduleKey": "sword/short_blade",
-            "moduleVariant": "short_blade/amethyst"
+            "moduleVariant": "short_blade/amethyst",
+            "improvements": {
+                "arrested": 0
+            }
         }
     ]
 }

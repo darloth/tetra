@@ -27,7 +27,10 @@
                 "axe": 1
             },
             "moduleKey": "sword/basic_blade",
-            "moduleVariant": "basic_blade/cactus"
+            "moduleVariant": "basic_blade/cactus",
+            "improvements": {
+                "blade/serrated": 2
+            }
         },
         {
             "material": {

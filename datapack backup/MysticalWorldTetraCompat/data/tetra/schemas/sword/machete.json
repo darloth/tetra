@@ -30,7 +30,10 @@
                 "hammer": 1
             },
             "moduleKey": "sword/machete",
-            "moduleVariant": "machete/amethyst"
+            "moduleVariant": "machete/amethyst",
+            "improvements": {
+                "arrested": 0
+            }
         },
         {
             "material": {
@@ -42,7 +45,10 @@
                 "cut": 2
             },
             "moduleKey": "sword/machete",
-            "moduleVariant": "machete/cactus"
+            "moduleVariant": "machete/cactus",
+            "improvements": {
+                "blade/serrated": 2
+            }
         }
     ]
 }

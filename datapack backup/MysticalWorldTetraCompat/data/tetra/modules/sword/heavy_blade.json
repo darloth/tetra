@@ -1,0 +1,83 @@
+{
+    "replace": false,
+    "slots": ["sword/blade"],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:sword/blade/heavy_blade",
+        "tetra:sword/blade/serrated",
+        "tetra:sword/blade/tempered",
+        "tetra:sword/blade/shared",
+        "tetra:sword/blade/shared_compat",
+        "tetra:sword/blade/shared_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "heavy_blade/cactus",
+            "durability": 100,
+            "integrity": -2,
+            "magicCapacity": 15,
+            "damage": 3.5,
+            "attackSpeed": -0.4,
+            "effects": {
+                "sweeping": 3
+            },
+            "capabilities": {
+                "cut": [1, 1]
+            },
+            "glyph": {
+                "tint": "0x78a040",
+                "textureX": 48
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/blade/heavy/crude",
+                "tint": "0x789640"
+            }]
+        },
+        {
+            "key": "heavy_blade/quicksilver",
+            "durability": 105,
+            "integrity": -3,
+            "magicCapacity": 18,
+            "damage": 5,
+            "attackSpeed": -0.55,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 48
+            },
+            "effects": {
+                "sweeping": 3
+            },
+            "capabilities": {
+                "cut": [1, 1]
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/blade/heavy/shiny",
+                "tint": "silver"
+            }]
+        },
+        {
+            "key": "heavy_blade/amethyst",
+            "durability": 1492,
+            "integrity": -4,
+            "magicCapacity": 10,
+            "damage": 9,
+            "attackSpeed": -0.6,
+            "effects": {
+                "sweeping": 3
+            },
+            "capabilities": {
+                "cut": [1, 1]
+            },
+            "glyph": {
+                "tint": "0x8746E2",
+                "textureX": 48
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/blade/heavy/shiny",
+                "tint": "0x915ED6"
+            }]
+        }
+    ]
+}

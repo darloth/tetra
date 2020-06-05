@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "slots": ["sword/hilt"],
+    "type": "tetra:basic_major_module",
+    "renderLayer": "lower",
+    "improvements": [
+        "tetra:sword/hilt/shared",
+        "tetra:sword/hilt/shared_compat",
+        "tetra:sword/hilt/shared_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "basic_hilt/quicksilver",
+            "durability": 12,
+            "integrity": 5,
+            "magicCapacity": 16,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/hilt/basic/default",
+                "tint": "iron"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "replace": false,
+    "slots": ["sword/pommel"],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "key": "decorative_pommel/cactus",
+            "durability": 4,
+            "attackSpeed": -0.5,
+            "glyph": {
+                "tint": "0x78a040",
+                "textureX": 14,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/pommel/decorative_pommel/default",
+                "tint": "0x789640"
+            }]
+        },
+        {
+            "key": "decorative_pommel/quicksilver",
+            "durability": 4,
+            "attackSpeed": -0.5,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 14,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/pommel/decorative_pommel/default",
+                "tint": "silver"
+            }]
+        },
+        {
+            "key": "decorative_pommel/amethyst",
+            "durability": 18,
+            "attackSpeed": -0.5,
+            "glyph": {
+                "tint": "0x8746e2",
+                "textureX": 14,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/pommel/decorative_pommel/default",
+                "tint": "0x915ed6"
+            }]
+        }
+    ]
+}
