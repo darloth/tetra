@@ -10,7 +10,7 @@
             "integrity": -1,
             "attackSpeed": -0.1,
             "effects": {
-                "thorns": 1
+                "armor": 1
             },
             "glyph": {
                 "tint": "0x78a040",
