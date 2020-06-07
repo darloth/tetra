@@ -1,6 +1,6 @@
-Cactus: 0x789640
 Cactus Glyph: 0x78a040
+Cactus: 0x789640
 
-Amethyst: 0x915ed6
 Amethyst Glyph: 0x8746e2
+Amethyst: 0x915ed6
 Alternate (gem main colour): 0xac58f7

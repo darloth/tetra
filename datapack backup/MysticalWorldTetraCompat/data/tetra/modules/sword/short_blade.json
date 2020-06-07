@@ -3,7 +3,7 @@
     "slots": ["sword/blade"],
     "type": "tetra:basic_major_module",
     "improvements": [
-        "tetra:sword/blade/basic_blade",
+        "tetra:sword/blade/short_blade",
         "tetra:sword/blade/serrated",
         "tetra:sword/blade/hooked",
         "tetra:sword/blade/tempered",
@@ -13,61 +13,62 @@
         "tetra:settling_improvements",
         "tetra:destabilization_improvements"
     ],
-    "variants": [{
-            "key": "basic_blade/cactus",
-            "durability": 72,
+    "variants": [
+        {
+            "key": "short_blade/cactus",
+            "durability": 50,
             "integrity": -1,
             "magicCapacity": 15,
-            "damage": 3,
-            "attackSpeed": 0.2,
-            "effects": {
-                "sweeping": 1
-            },
+            "damage": 2,
+            "attackSpeed": 1.6,
             "capabilities": {
-                "cut": [1, 0.9375]
+                "cut": [2, 0.6]
             },
-            "glyph": { "tint": "0x78a040" },
+            "glyph": {
+                "tint": "0x78a040",
+                "textureX": 32
+            },
             "models": [{
-                "location": "tetra:items/module/sword/blade/basic/crude",
+                "location": "tetra:items/module/sword/blade/short/crude",
                 "tint": "0x789640"
             }]
         },
         {
-            "key": "basic_blade/quicksilver",
-            "durability": 60,
-            "integrity": -1,
+            "key": "short_blade/quicksilver",
+            "durability": 36,
+            "integrity": -2,
             "magicCapacity": 18,
             "damage": 4,
-            "attackSpeed": 0.4,
-            "effects": {
-                "sweeping": 1
+            "attackSpeed": 3.0,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 32
             },
             "capabilities": {
-                "cut": [1, 0.9375]
+                "cut": [2, 0.7]
             },
-            "glyph": { "tint": "silver_glyph" },
             "models": [{
-                "location": "tetra:items/module/sword/blade/basic/shiny",
+                "location": "tetra:items/module/sword/blade/short/shiny",
                 "tint": "silver"
             }]
         },
         {
-            "key": "basic_blade/amethyst",
-            "durability": 1492,
-            "integrity": -2,
-            "magicCapacity": 10,
-            "damage": 6,
-            "attackSpeed": 0.2,
-            "effects": {
-                "sweeping": 1
-            },
+            "key": "short_blade/amethyst",
+            "durability": 270,
+            "integrity": -1,
+            "magicCapacity": 60,
+            "damage": 5,
+            "attackSpeed": 1.5,
             "capabilities": {
-                "cut": [1, 0.9375]
+                "cut": [2, 0.7]
             },
-            "glyph": { "tint": "0x8746E2" },
+            "glyph": {
+                "tint": "0x8746e2",
+                "textureX": 32
+            },
             "models": [{
-                "location": "tetra:items/module/sword/blade/basic/shiny",
-                "tint": "0x915ED6"
+                    "location": "tetra:items/module/sword/blade/short/shiny",
+                    "tint": "0x915ed6"
             }]
         }
     ]
