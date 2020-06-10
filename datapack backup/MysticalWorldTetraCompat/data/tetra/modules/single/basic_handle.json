@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "type": "tetra:basic_major_module",
+    "slots": ["single/handle"],
+    "renderLayer": "lower",
+    "improvements": [
+        "tetra:single/shared_handle",
+        "tetra:single/shared_handle_compat",
+        "tetra:single/shared_handle_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "basic_handle/quicksilver",
+            "durability": 40,
+            "integrity": 5,
+            "magicCapacity": 10,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/single/handle/basic/default",
+                "tint": "silver_glyph"
+            }]
+        }
+    ]
+}

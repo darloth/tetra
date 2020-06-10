@@ -1,0 +1,29 @@
+{
+    "replace": true,
+    "type": "tetra:basic_module",
+    "slots": ["single/binding"],
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "key": "single_socket/amethyst",
+            "durability": 512,
+            "durabilityMultiplier": 0.8,
+            "integrity": -1,
+            "glyph": {
+                "tint": "0x8746e2",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/single/binding/socket/default",
+                "tint": "0x915ed6"
+            }],
+            "capabilities": {
+                "axe": [0, 1],
+                "shovel": [0, 1],
+                "pickaxe": [0, 1],
+                "cut": [0, 1]
+            }
+        }
+    ]
+}
