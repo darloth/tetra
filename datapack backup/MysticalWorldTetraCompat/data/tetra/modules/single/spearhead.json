@@ -1,0 +1,68 @@
+{
+    "replace": false,
+    "type": "tetra:basic_major_module",
+    "slots": ["single/head"],
+    "improvements": [
+        "tetra:single/spearhead",
+        "tetra:single/serrated",
+        "tetra:single/tempered",
+        "tetra:single/spearhead_hone",
+        "tetra:single/shared_head_compat",
+        "tetra:single/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "spearhead/cactus",
+            "durability": 50,
+            "integrity": -1,
+            "magicCapacity": 15,
+            "damage": 3,
+            "attackSpeed": 0.2,
+            "glyph": {
+                "textureX": 208,
+                "textureY": 32,
+                "tint": "0x78a040"
+            },
+            "models": [{
+                "location": "tetra:items/module/single/head/spearhead/crude",
+                "tint": "0x789640"
+            }]
+        },
+        {
+            "key": "spearhead/quicksilver",
+            "durability": 60,
+            "integrity": -1,
+            "magicCapacity": 21,
+            "damage": 4,
+            "attackSpeed": 0.3,
+            "glyph": {
+                "textureX": 208,
+                "textureY": 32,
+                "tint": "silver_glyph"
+            },
+            "models": [{
+                "location": "tetra:items/module/single/head/spearhead/shiny",
+                "tint": "silver"
+            }]
+        },
+        {
+            "key": "spearhead/amethyst",
+            "durability": 1492,
+            "integrity": -2,
+            "magicCapacity": 10,
+            "damage": 6,
+            "attackSpeed": 0.2,
+            "glyph": {
+                "textureX": 208,
+                "textureY": 32,
+                "tint": "0x8746e2"
+            },
+            "models": [{
+                "location": "tetra:items/module/single/head/spearhead/metal",
+                "tint": "0x915ed6"
+            }]
+        }
+    ]
+}
