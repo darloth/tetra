@@ -1,0 +1,65 @@
+{
+    "replace": false,
+    "type": "tetra:multi_major_module",
+    "slots": ["duplex/head_right"],
+    "slotSuffixes": ["_right"],
+    "improvements": [
+        "tetra:duplex/butt",
+        "tetra:duplex/butt_hone",
+        "tetra:duplex/shared_head_compat",
+        "tetra:duplex/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "butt/cactus",
+            "durability": 12,
+            "magicCapacity": 15,
+            "integrity": -1,
+            "damage": 1,
+            "glyph": {
+                "tint": "0x78a040",
+                "textureX": 160
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/butt/crude",
+                "tint": "0x789640"
+            }]
+        },
+        {
+            "key": "butt/quicksilver",
+            "durability": 8,
+            "magicCapacity": 12,
+            "integrity": 0,
+            "attackSpeed": 0.1,
+            "damage": 1,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 160
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/butt/shiny",
+                "tint": "silver"
+            }]
+        },
+        {
+            "key": "butt/amethyst",
+            "durability": 548,
+            "magicCapacity": 10,
+            "integrity": -1,
+            "damage": 1,
+            "glyph": {
+                "tint": "0x8746e2",
+                "textureX": 160
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/butt/shiny",
+                "tint": "0x915ed6"
+            }],
+            "capabilities": {
+                "hammer": 1
+            }
+        }
+    ]
+}

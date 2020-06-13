@@ -1,0 +1,30 @@
+{
+    "replace": false,
+    "type": "tetra:basic_major_module",
+    "slots": ["duplex/handle"],
+    "renderLayer": "lower",
+    "improvements": [
+        "tetra:duplex/basic_handle",
+        "tetra:duplex/basic_handle_compat",
+        "tetra:duplex/basic_handle_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "basic_handle/quicksilver",
+            "durability": 40,
+            "integrity": 5,
+            "magicCapacity": 8,
+            "attackSpeed": -0.1,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/handle/basic/default",
+                "tint": "silver_glyph"
+            }]
+        }
+    ]
+}

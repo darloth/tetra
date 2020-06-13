@@ -1,0 +1,2 @@
+Localization names for all the new modules
+Improved Cactus graphics

@@ -1,0 +1,91 @@
+{
+    "replace": false,
+    "type": "tetra:multi_major_module",
+    "slots": ["duplex/head_left", "duplex/head_right"],
+    "slotSuffixes": ["_left", "_right"],
+    "improvements": [
+        "tetra:duplex/sickle",
+        "tetra:duplex/sickle_hone",
+        "tetra:duplex/shared_head_compat",
+        "tetra:duplex/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "sickle/cactus",
+            "durability": 20,
+            "integrity": -1,
+            "magicCapacity": 15,
+            "damage": 1,
+            "attackSpeed": -0.4,
+            "glyph": {
+                "tint": "0x78a040",
+                "textureX": 32,
+                "textureY": 32
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/sickle/crude",
+                "tint": "0x789640"
+            }],
+            "capabilities": {
+                "cut": [1, 1.6667]
+            },
+            "effects": {
+                "strikingCut": 1,
+                "sweepingStrike": 1,
+                "sweeping": 1
+            }
+        },
+        {
+            "key": "sickle/quicksilver",
+            "durability": 46,
+            "integrity": -1,
+            "magicCapacity": 21,
+            "damage": 2,
+            "attackSpeed": -0.3,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 32,
+                "textureY": 32
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/sickle/shiny",
+                "tint": "silver"
+            }],
+            "capabilities": {
+                "cut": [1, 10]
+            },
+            "effects": {
+                "strikingCut": 1,
+                "sweepingStrike": 1,
+                "sweeping": 1
+            }
+        },
+        {
+            "key": "sickle/amethyst",
+            "durability": 771,
+            "integrity": -2,
+            "magicCapacity": 10,
+            "damage": 2,
+            "attackSpeed": -0.4,
+            "glyph": {
+                "tint": "0x8746e2",
+                "textureX": 32,
+                "textureY": 32
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/sickle/shiny",
+                "tint": "0x915ed6"
+            }],
+            "capabilities": {
+                "cut": [1, 6.6667]
+            },
+            "effects": {
+                "strikingCut": 1,
+                "sweepingStrike": 1,
+                "sweeping": 1
+            }
+        }
+    ]
+}

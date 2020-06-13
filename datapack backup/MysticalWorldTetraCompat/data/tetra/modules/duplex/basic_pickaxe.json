@@ -1,0 +1,74 @@
+{
+    "replace": false,
+    "type": "tetra:multi_major_module",
+    "slots": ["duplex/head_left", "duplex/head_right"],
+    "slotSuffixes": ["_left", "_right"],
+    "improvements": [
+        "tetra:duplex/basic_pickaxe",
+        "tetra:duplex/basic_pickaxe_compat",
+        "tetra:duplex/basic_pickaxe_hone",
+        "tetra:duplex/shared_head_compat",
+        "tetra:duplex/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "basic_pickaxe/cactus",
+            "durability": 20,
+            "integrity": -1,
+            "magicCapacity": 15,
+            "damage": 1,
+            "attackSpeed": -0.2,
+            "glyph": {
+                "tint": "0x78a040",
+                "textureX": 176
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/basic_pickaxe/crude",
+                "tint": "0x789640"
+            }],
+            "capabilities": {
+                "pickaxe": [0, 1.6667]
+            }
+        },
+        {
+            "key": "basic_pickaxe/quicksilver",
+            "durability": 26,
+            "integrity": -1,
+            "magicCapacity": 16,
+            "damage": 2,
+            "attackSpeed": -0.10,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 176
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/basic_pickaxe/shiny",
+                "tint": "silver"
+            }],
+            "capabilities": {
+                "pickaxe": [2, 10]
+            }
+        },
+        {
+            "key": "basic_pickaxe/amethyst",
+            "durability": 771,
+            "integrity": -2,
+            "magicCapacity": 10,
+            "damage": 4,
+            "attackSpeed": -0.2,
+            "glyph": {
+                "tint": "0x8746e2",
+                "textureX": 176
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/basic_pickaxe/shiny",
+                "tint": "0x915ed6"
+            }],
+            "capabilities": {
+                "pickaxe": [3, 6.6667]
+            }
+        }
+    ]
+}

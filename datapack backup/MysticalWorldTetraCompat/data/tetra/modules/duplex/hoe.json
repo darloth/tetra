@@ -1,0 +1,77 @@
+{
+    "replace": true,
+    "type": "tetra:multi_major_module",
+    "slots": ["duplex/head_left", "duplex/head_right"],
+    "slotSuffixes": ["_left", "_right"],
+    "improvements": [
+        "tetra:duplex/hoe",
+        "tetra:duplex/hoe_compat",
+        "tetra:duplex/hoe_hone",
+        "tetra:duplex/shared_head_compat",
+        "tetra:duplex/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "hoe/cactus",
+            "durability": 20,
+            "integrity": -1,
+            "magicCapacity": 15,
+            "damage": 2,
+            "attackSpeed": -0.6,
+            "glyph": {
+                "tint": "0x78a040",
+                "textureX": 16,
+                "textureY": 32
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/hoe/crude",
+                "tint": "0x789640"
+            }],
+            "effects": {
+                "tilling": 1
+            }
+        },
+        {
+            "key": "hoe/quicksilver",
+            "durability": 46,
+            "integrity": -1,
+            "magicCapacity": 21,
+            "damage": 4,
+            "attackSpeed": -0.37,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 16,
+                "textureY": 32
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/hoe/shiny",
+                "tint": "silver"
+            }],
+            "effects": {
+                "tilling": 1
+            }
+        },
+        {
+            "key": "hoe/amethyst",
+            "durability": 771,
+            "integrity": -2,
+            "magicCapacity": 10,
+            "damage": 4,
+            "attackSpeed": -0.25,
+            "glyph": {
+                "tint": "0x8746e2",
+                "textureX": 16,
+                "textureY": 32
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/hoe/shiny",
+                "tint": "0x915ed6"
+            }],
+            "effects": {
+                "tilling": 1
+            }
+        }
+    ]
+}

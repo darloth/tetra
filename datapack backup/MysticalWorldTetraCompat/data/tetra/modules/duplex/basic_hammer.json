@@ -1,0 +1,54 @@
+{
+    "replace": false,
+    "type": "tetra:multi_major_module",
+    "slots": ["duplex/head_left", "duplex/head_right"],
+    "slotSuffixes": ["_left", "_right"],
+    "improvements": [
+        "tetra:duplex/basic_hammer",
+        "tetra:duplex/basic_hammer_hone",
+        "tetra:duplex/shared_head_compat",
+        "tetra:duplex/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "basic_hammer/cactus",
+            "durability": 100,
+            "integrity": -1,
+            "magicCapacity": 15,
+            "damage": 4,
+            "attackSpeed": -0.35,
+            "glyph": {
+                "tint": "0x78a040",
+                "textureX": 64
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/basic_hammer/log",
+                "tint": "0x789640"
+            }],
+            "capabilities": {
+                "hammer": [1, 5]
+            }
+        },
+                {
+            "key": "basic_hammer/quicksilver",
+            "durability": 200,
+            "integrity": -2,
+            "magicCapacity": 10,
+            "damage": 7,
+            "attackSpeed": -0.35,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureX": 64
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/basic_hammer/metal",
+                "tint": "silver"
+            }],
+            "capabilities": {
+                "hammer": [2, 10]
+            }
+        }
+    ]
+}

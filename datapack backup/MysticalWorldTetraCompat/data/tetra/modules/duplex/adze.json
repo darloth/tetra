@@ -1,0 +1,77 @@
+{
+    "replace": false,
+    "type": "tetra:multi_major_module",
+    "slots": ["duplex/head_left", "duplex/head_right"],
+    "slotSuffixes": ["_left", "_right"],
+    "improvements": [
+        "tetra:duplex/adze",
+        "tetra:duplex/adze_compat",
+        "tetra:duplex/adze_hone",
+        "tetra:duplex/shared_head_compat",
+        "tetra:duplex/shared_head_hone",
+        "tetra:settling_improvements",
+        "tetra:destabilization_improvements"
+    ],
+    "variants": [
+        {
+            "key": "adze/cactus",
+            "durability": 20,
+            "integrity": -1,
+            "magicCapacity": 15,
+            "damage": 0,
+            "attackSpeed": -0.5,
+            "glyph": {
+                "tint": "0x78a040",
+                "textureY": 32
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/adze/crude",
+                "tint": "0x789640"
+            }],
+            "capabilities": {
+                "axe": [1, 1.5],
+                "shovel": [1, 1.5]
+            }
+        },
+        {
+            "key": "adze/quicksilver",
+            "durability": 21,
+            "integrity": -1,
+            "magicCapacity": 16,
+            "damage": 1,
+            "attackSpeed": -0.4,
+            "glyph": {
+                "tint": "silver_glyph",
+                "textureY": 32
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/adze/shiny",
+                "tint": "silver"
+            }],
+            "capabilities": {
+                "axe": [1, 5.7],
+                "shovel": [1, 5.7]
+            }
+        },
+        {
+            "key": "adze/amethyst",
+            "durability": 742,
+            "integrity": -2,
+            "magicCapacity": 10,
+            "damage": 1,
+            "attackSpeed": -0.5,
+            "glyph": {
+                "tint": "0x8746e2",
+                "textureY": 32
+            },
+            "models": [{
+                "location": "tetra:items/module/duplex/head/adze/shiny",
+                "tint": "0x915ed6"
+            }],
+            "capabilities": {
+                "axe": [3, 4.1],
+                "shovel": [3, 4.1]
+            }
+        }
+    ]
+}
